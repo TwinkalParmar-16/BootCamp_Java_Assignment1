@@ -5,6 +5,19 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
+    	int actual_size=names.size();		
+		int index=0;
+		
+		while(index!=actual_size)
+		{
+			if(names.get(index).contains("oggy"))
+			{
+				names.remove(index);
+				actual_size -=1;
+				index--;
+			}
+			index++;
+		}
         return;
     }
     public static boolean oggyIsRemoved(ArrayList<String> names) {
