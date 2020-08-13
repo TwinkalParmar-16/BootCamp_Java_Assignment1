@@ -4,7 +4,7 @@
 
 This program intends to remove strings containing 'oggy' from a
 list of strings. This will able to remove a specific element from
-the array list of type string which stated with a specific substring.
+the array list of type string which stated with a specific sub-string.
 
 ## Method
 
